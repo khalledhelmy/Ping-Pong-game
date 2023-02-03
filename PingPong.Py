@@ -2,7 +2,7 @@ import turtle
 
 # Window characteristics
 wind = turtle.Screen()                            # Build the window that I'll watch game in it
-wind.title("Ping Pong")                           # The name of the window
+wind.title("Ping Pong")                           # The title of the window
 wind.bgcolor("black")                             # The background color of the window
 wind.setup(width=800,height=600)                  # Give the height and width for window
 wind.tracer(0)                                    # To prevent the window to update from itself
